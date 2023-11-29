@@ -1,0 +1,30 @@
+.chip-container {
+  display: flex;
+  align-items: center;
+  padding: 4px; /* Регулируйте отступы по своему усмотрению */
+  border-radius: 24px;
+  border: 2px solid #ccc; /* Регулируйте цвет и толщину границы по своему усмотрению */
+  cursor: pointer; /* Добавьте курсор при наведении, если необходимо */
+}
+
+.chip-icon {
+  width: 36px; /* Размер иконки */
+  height: 36px;
+  border-radius: 50%; /* Делаем круглую иконку */
+  margin-right: 8px; /* Расстояние между иконкой и текстом */
+}
+
+.chip-name {
+  margin-right: 8px;
+}
+
+.chip-status {
+  width: 16px; /* Размер иконки статуса */
+  height: 16px;
+  margin-left: 0px; /* Расстояние между текстом и иконкой статуса */
+  margin-right: 8px;
+}
+
+.active {
+  /* Стили для активного состояния, если необходимо */
+}
